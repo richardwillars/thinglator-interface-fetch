@@ -1,0 +1,37 @@
+{
+  "name": "thinglator-interface-fetch",
+  "license": "MIT",
+  "description": "An interface that allows Thinglator to talk to http devices using fetch",
+  "version": "1.0.0",
+  "maintainers": [
+    {
+      "name": "Richard Willars",
+      "email": "richard@richardwillars.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/richardwillars/thinglator-interface-fetch.git"
+  },
+  "peerDependencies": {
+    "thinglator": "1.x"
+  },
+  "dependencies": {
+    "node-fetch": "^1.7.3"
+  },
+  "devDependencies": {
+    "eslint": "^4.7.0",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.8.0",
+    "jest": "^21.2.1"
+  },
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "lint": "eslint --ext js ."
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "main": "index.js"
+}
