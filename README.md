@@ -21,7 +21,8 @@ Navigate to the root of your Thinglator installation and run:
 Go to the thinglator project and run:
 
 > yarn link thinglator-interface-fetch
-> This will point thinglator/node_modules/thinglator-interface-fetch to the directory where you just installed thinglator-interface-fetch. This makes it easier for development and testing of the module.
+
+This will point thinglator/node_modules/thinglator-interface-fetch to the directory where you just installed thinglator-interface-fetch. This makes it easier for development and testing of the module.
 
 > yarn dev
 
